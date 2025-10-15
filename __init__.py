@@ -2,8 +2,8 @@
 Insider - Python Code Obfuscation Library
 """
 
-from .core.obfuscator import Obfuscator
-from .core.transformers import (
+from insider.core.obfuscator import Obfuscator
+from insider.core.transformers import (
     VariableRenamer,
     StringObfuscator,
     ImportObfuscator, 
@@ -11,7 +11,7 @@ from .core.transformers import (
     MarshallTransformer,
     ZlibTransformer
 )
-from .encryption import MarshallEncoder, ZlibCompressor
+from insider.encryption import MarshallEncoder, ZlibCompressor
 
 __version__ = "1.1.0"
 __author__ = "exsarorrayzer"
