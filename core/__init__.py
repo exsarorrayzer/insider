@@ -1,5 +1,5 @@
-from .obfuscator import Obfuscator
-from .transformers import (
+from insider.core.obfuscator import Obfuscator
+from insider.core.transformers import (
     VariableRenamer,
     StringObfuscator, 
     ImportObfuscator,
