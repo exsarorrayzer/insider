@@ -1,8 +1,11 @@
 Insider - Python Code Obfuscation Library
 
 (https://img.shields.io/badge/version-1.1.0-blue)
+
 (https://img.shields.io/badge/python-3.7%2B-green)
+
 (https://img.shields.io/badge/license-MIT-yellow)
+
 
 Insider is a powerful and modular Python code obfuscation library designed to protect your Python source code from reverse engineering and unauthorized analysis. It provides multiple obfuscation techniques that can be used individually or combined for maximum protection.
 
