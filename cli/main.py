@@ -17,14 +17,12 @@ def show_banner():
 """
     print(banner)
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
-from ..core.obfuscator import Obfuscator
+from insider.core.obfuscator import Obfuscator
 
 def main():
     show_banner()
     
-    parser = argparse.ArgumentParser(description='RyterCrypt - Python Code Obfuscation Tool')
+    parser = argparse.ArgumentParser(description='Insider - Python Code Obfuscation Tool')
     
     parser.add_argument('-file', '--input-file', required=True, 
                        help='Input file to obfuscate')
