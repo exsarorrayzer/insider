@@ -1,9 +1,9 @@
 import re
 import base64
 import random
-from ..encryption.marshall_encoder import MarshallEncoder
-from ..encryption.zlib_compressor import ZlibCompressor
-from .utils import CodeUtils
+from insider.encryption.marshall_encoder import MarshallEncoder
+from insider.encryption.zlib_compressor import ZlibCompressor
+from insider.core.utils import CodeUtils
 
 class VariableRenamer:
     
