@@ -1,3 +1,3 @@
-from .main import main
+from insider.cli.main import main
 
 __all__ = ['main']
