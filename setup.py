@@ -29,7 +29,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'insider=cli.main:main',
+            'insider=.insider.cli.main:main',
         ],
     },
 )
