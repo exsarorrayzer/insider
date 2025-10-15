@@ -1,8 +1,12 @@
+"""
+Insider - Python Code Obfuscation Library
+"""
+
 from .core.obfuscator import Obfuscator
 from .core.transformers import (
     VariableRenamer,
     StringObfuscator,
-    ImportObfuscator,
+    ImportObfuscator, 
     CommentRemover,
     MarshallTransformer,
     ZlibTransformer
@@ -14,10 +18,10 @@ __author__ = "exsarorrayzer"
 
 __all__ = [
     'Obfuscator',
-    'VariableRenamer', 
+    'VariableRenamer',
     'StringObfuscator',
     'ImportObfuscator',
-    'CommentRemover',
+    'CommentRemover', 
     'MarshallTransformer',
     'ZlibTransformer',
     'MarshallEncoder',
