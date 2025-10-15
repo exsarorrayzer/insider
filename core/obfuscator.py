@@ -1,6 +1,6 @@
 import os
 from typing import List, Optional
-from .transformers import (
+from insider.core.transformers import (
     VariableRenamer, 
     StringObfuscator, 
     ImportObfuscator, 
