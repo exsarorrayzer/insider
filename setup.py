@@ -29,7 +29,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'insider=insider.cli.main:main',  # ✅ DOĞRU
+            'insider=insider.cli.main:main',
         ],
     },
 )
