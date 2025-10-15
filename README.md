@@ -28,13 +28,13 @@ Insider is a powerful and modular Python code obfuscation library designed to pr
 
 📦 Installation
 
-From GitHub
+### From GitHub
 
 ```bash
 pip install git+https://github.com/exsarorrayzer/insider.git
 ```
 
-Local Development Installation
+### Local Development Installation
 
 ```bash
 git clone https://github.com/exsarorrayzer/insider.git
